@@ -16,8 +16,15 @@ int extended_gcd(int a, int b, int *x, int *y) {
 
 // Function to find the modular inverse
 void modular_inverse(int a, int m) {
-    int x, y;
+    int x, y, t1, t2;
     int gcd = extended_gcd(a, m, &x, &y);
+
+    // Store intermediate results in t1 and t2
+    t1 = x;
+    t2 = y;
+
+    printf("The GCD of %d and %d is: %d\n", a, m, gcd); // Print the GCD
+    printf("Intermediate results: t1 = %d, t2 = %d\n", t1, t2); // Print t1 and t2
 
     if (gcd != 1) {
         printf("No modular inverse exists for %d mod %d\n", a, m);
@@ -43,18 +50,3 @@ int main() {
 
     return 0;
 }
-
-
-// Output 
-
-// Number with Modular inverse
-
-// Enter a number to find its modular inverse: 5
-// Enter the modulus (m): 26
-// The modular inverse of 5 mod 26 is: 21
-
-// Number without Modular inverse
-
-// Enter a number to find its modular inverse: 2
-// Enter the modulus (m): 4
-// No modular inverse exists for 2 mod 4
