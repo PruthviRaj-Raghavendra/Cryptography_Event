@@ -43,3 +43,18 @@ int main() {
 
     return 0;
 }
+
+
+// Output 
+
+// Number with Modular inverse
+
+// Enter a number to find its modular inverse: 5
+// Enter the modulus (m): 26
+// The modular inverse of 5 mod 26 is: 21
+
+// Number without Modular inverse
+
+// Enter a number to find its modular inverse: 2
+// Enter the modulus (m): 4
+// No modular inverse exists for 2 mod 4

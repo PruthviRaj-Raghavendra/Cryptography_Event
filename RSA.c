@@ -130,3 +130,31 @@ int main() {
 
     return 0;
 }
+
+
+
+// Output
+
+// Public key (e, n): (7, 187)
+// Private key (d, n): (23, 187)
+
+// Select an option:
+// 1. Encrypt message
+// 2. Decrypt message
+// 3. Exit
+// Enter choice: 1
+// Enter a message to encrypt: HI
+// Encrypted message (cipher text): 30 61 
+
+// Select an option:
+// 1. Encrypt message
+// 2. Decrypt message
+// 3. Exit
+// Enter choice: 2
+// Decrypted message: HI
+
+// Select an option:
+// 1. Encrypt message
+// 2. Decrypt message
+// 3. Exit
+// Enter choice: 3

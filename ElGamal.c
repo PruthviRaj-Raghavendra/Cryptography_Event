@@ -61,3 +61,14 @@ int main() {
 
     return 0;
 }
+
+//Output
+
+// Enter a prime number p: 17
+// Enter generator e1 (must be < p): 3
+// Enter private key d (must be < p): 7
+// Public key e2 computed as (e1^d) mod p: 11
+// Enter a random integer r (must be < p): 5
+// Enter the message m (must be < p): 9
+// Ciphertext: c1 = 5, c2 = 5
+// Decrypted message: 9
