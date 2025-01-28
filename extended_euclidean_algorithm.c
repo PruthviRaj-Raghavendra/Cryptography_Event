@@ -50,3 +50,11 @@ int main() {
 
     return 0;
 }
+
+// Output 
+
+// Enter a number to find its modular inverse: 5
+// Enter the modulus (m): 26
+// The GCD of 5 and 26 is: 1
+// Intermediate results: t1 = -5, t2 = 1
+// The modular inverse of 5 mod 26 is: 21
